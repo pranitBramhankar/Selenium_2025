@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumMethods.JSEClickSendKeys">
+      <class name="TestNG.PracticeGroups">
         <methods>
-          <include name="sendKeyMethod"/>
+          <include name="h"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- SeleniumMethods.JSEClickSendKeys -->
+      </class> <!-- TestNG.PracticeGroups -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
